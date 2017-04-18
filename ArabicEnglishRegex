@@ -1,0 +1,23 @@
+package com.neo.test;
+
+/** 
+ *
+ * @author <a href="mailto:atifoxon@gmail.com">Atif Riaz</a>
+ */
+public class Test {
+	
+	/**
+	 *
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		String s = "نشعض شسي";
+		System.out.println(s.matches("[\\p{InArabic} ]+"));
+		s = "scsa asd";
+		System.out.println(s.matches("[a-zA-Z ]+"));
+		
+	}
+			
+
+}
